@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "arbiter"
+version = "${version}"
+displayName = "Arbiter"
+description = '''
+Addon for Real Camera that hides armor in the helmet slot while Real Camera renders the first-person player model.
+'''
+authors = "benjimirooo"
+
+[[dependencies.arbiter]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.arbiter]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.arbiter]]
+modId = "realcamera"
+type = "required"
+versionRange = "[0.7.8-beta,)"
+ordering = "AFTER"
+side = "CLIENT"
+
+[[mixins]]
+config = "arbiter.mixins.json"

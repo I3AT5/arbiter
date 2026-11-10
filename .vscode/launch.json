@@ -1,0 +1,71 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - arbiter",
+        "order": 0
+      },
+      "projectName": "arbiter",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\JB\\Documents\\0moddingmc\\repositories\\beginner\\arbiter\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\JB\\Documents\\0moddingmc\\repositories\\beginner\\arbiter\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003darbiter%%C:\\Users\\JB\\Documents\\0moddingmc\\repositories\\beginner\\arbiter\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - arbiter",
+        "order": 1
+      },
+      "projectName": "arbiter",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\JB\\Documents\\0moddingmc\\repositories\\beginner\\arbiter\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\JB\\Documents\\0moddingmc\\repositories\\beginner\\arbiter\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003darbiter%%C:\\Users\\JB\\Documents\\0moddingmc\\repositories\\beginner\\arbiter\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - arbiter",
+        "order": 2
+      },
+      "projectName": "arbiter",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\JB\\Documents\\0moddingmc\\repositories\\beginner\\arbiter\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\JB\\Documents\\0moddingmc\\repositories\\beginner\\arbiter\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003darbiter%%C:\\Users\\JB\\Documents\\0moddingmc\\repositories\\beginner\\arbiter\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
